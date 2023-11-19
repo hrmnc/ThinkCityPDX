@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: EVSE Fuse Retrofit &#8212; IMPORTANT CORRECTION</title>
+	<atom:link href="http://thinkcitypdx.com/blog/?feed=rss2&#038;p=231" rel="self" type="application/rss+xml" />
+	<link>http://thinkcitypdx.com/blog/?p=231</link>
+	<description>An unofficial resource for owners of Think City electric vehicles in the Pacific Northwest and around the world.</description>
+	<lastBuildDate>Fri, 08 Apr 2016 04:14:58 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.6.12</generator>
+	<item>
+		<title>By: Johnny</title>
+		<link>http://thinkcitypdx.com/blog/?p=231#comment-537</link>
+		<dc:creator><![CDATA[Johnny]]></dc:creator>
+		<pubDate>Fri, 08 Apr 2016 04:01:27 +0000</pubDate>
+		<guid isPermaLink="false">http://thinkcitypdx.com/blog/?p=231#comment-537</guid>
+		<description><![CDATA[I think it is a surge or inrush current that blows the fuse.  When electronic switching power supplies start to receive voltage, there is a very short time of high current to start up the power supply and charge the capacitors.  The further away from the board, the less likely the fuse will blow due to the resistance of the wire up to the board (where the load is highest).    I believe that putting the fuse holders as close to the PCU as possible and using 12 amp fuses (or 15 amp fast blow) (on the car that still has the 20 amp fuses on the board) will prevent the onboard fuses from blowing.  I have been charging the car for several days with 12 amp fast blow fuses.  So far they are working OK.  I only charge on my home EVSE and monitor the current so I know when the car is charged.  I believe some commercial EVSE units may actually charge at more than the 12 amps, but my car draws approximately 12-13 amps so that is where I started with the fuse size.  If they blow in a week or two, I will go up to 15 amp fast blow fuses. Much easier than replacing the internal board fuses in the PCU.  The sticker on the charger inside the PCU says 100-250 V @ 14 amps MAX and 25 amp fuse size.  Remember that the pumps and fan while charging is added to this current.  I don&#039;t know if the power for the 12 volt supply is after these fuses, but from the schematic I suspect it is located after the 20 amp fuses.  Why they put in 20 amp fuses to this charger when it states 25 amp fuse right on the charger sticker itself is beyond me.... and very painful to replace.  I would definitely put inline fuse holders close to the PCU with 15 Amp fuses as a preventative measure,  for 1 hour of labor and $20-40 in parts, you may save yourself 12 hours of painful PCU removal to jump across the fuses and add them later.
+Johnny]]></description>
+		<content:encoded><![CDATA[<p>I think it is a surge or inrush current that blows the fuse.  When electronic switching power supplies start to receive voltage, there is a very short time of high current to start up the power supply and charge the capacitors.  The further away from the board, the less likely the fuse will blow due to the resistance of the wire up to the board (where the load is highest).    I believe that putting the fuse holders as close to the PCU as possible and using 12 amp fuses (or 15 amp fast blow) (on the car that still has the 20 amp fuses on the board) will prevent the onboard fuses from blowing.  I have been charging the car for several days with 12 amp fast blow fuses.  So far they are working OK.  I only charge on my home EVSE and monitor the current so I know when the car is charged.  I believe some commercial EVSE units may actually charge at more than the 12 amps, but my car draws approximately 12-13 amps so that is where I started with the fuse size.  If they blow in a week or two, I will go up to 15 amp fast blow fuses. Much easier than replacing the internal board fuses in the PCU.  The sticker on the charger inside the PCU says 100-250 V @ 14 amps MAX and 25 amp fuse size.  Remember that the pumps and fan while charging is added to this current.  I don&#8217;t know if the power for the 12 volt supply is after these fuses, but from the schematic I suspect it is located after the 20 amp fuses.  Why they put in 20 amp fuses to this charger when it states 25 amp fuse right on the charger sticker itself is beyond me&#8230;. and very painful to replace.  I would definitely put inline fuse holders close to the PCU with 15 Amp fuses as a preventative measure,  for 1 hour of labor and $20-40 in parts, you may save yourself 12 hours of painful PCU removal to jump across the fuses and add them later.<br />
+Johnny</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Hans Galle</title>
+		<link>http://thinkcitypdx.com/blog/?p=231#comment-38</link>
+		<dc:creator><![CDATA[Hans Galle]]></dc:creator>
+		<pubDate>Fri, 11 Sep 2015 19:10:10 +0000</pubDate>
+		<guid isPermaLink="false">http://thinkcitypdx.com/blog/?p=231#comment-38</guid>
+		<description><![CDATA[Sorry, today only I read your answer.
+Surfed on elbilforum.no and came through &#039;Think Tech Center&#039; to your Blog (What I am very interested).
+
+It&#039;s just great how you illuminate this issue.
+To transfer externally 20A after is the better solution. Does not affect the protection of the aluminum box. 
+But your Fuse Holders are not responsible for AC100 ... 240V!
+In addition, protection against water and dust important (IP54 ... 65), and shock protection by fuse replacement.
+Perhaps stuck in heat shrink tubing?
+
+Right, why 20A blow, we have to accept unexplained for now.
+20A fuse is typ &quot;fast blow&quot;_ AC / DC converter could inrush_ ... etc.
+
+My house fuse is a miniature circuit breaker L-16A(for Line Protection). These have magnetic and thermal releases combined (Does USA also determined.).
+The characteristic curves have an intersection at about 6 times the rated current. It is triggered because of 96A in about 5 seconds. At 1.4x the rated current no tripping.
+So is neither protective nor of importance for the 20A fuse in the PCU.
+I must go to try to measure over an hour the current profile for AC230V charge Inlet. Where I previously said it would under 14A.
+Merci  HANS]]></description>
+		<content:encoded><![CDATA[<p>Sorry, today only I read your answer.<br />
+Surfed on elbilforum.no and came through &#8216;Think Tech Center&#8217; to your Blog (What I am very interested).</p>
+<p>It&#8217;s just great how you illuminate this issue.<br />
+To transfer externally 20A after is the better solution. Does not affect the protection of the aluminum box.<br />
+But your Fuse Holders are not responsible for AC100 &#8230; 240V!<br />
+In addition, protection against water and dust important (IP54 &#8230; 65), and shock protection by fuse replacement.<br />
+Perhaps stuck in heat shrink tubing?</p>
+<p>Right, why 20A blow, we have to accept unexplained for now.<br />
+20A fuse is typ &#8220;fast blow&#8221;_ AC / DC converter could inrush_ &#8230; etc.</p>
+<p>My house fuse is a miniature circuit breaker L-16A(for Line Protection). These have magnetic and thermal releases combined (Does USA also determined.).<br />
+The characteristic curves have an intersection at about 6 times the rated current. It is triggered because of 96A in about 5 seconds. At 1.4x the rated current no tripping.<br />
+So is neither protective nor of importance for the 20A fuse in the PCU.<br />
+I must go to try to measure over an hour the current profile for AC230V charge Inlet. Where I previously said it would under 14A.<br />
+Merci  HANS</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: mayerjm@comcast.net</title>
+		<link>http://thinkcitypdx.com/blog/?p=231#comment-17</link>
+		<dc:creator><![CDATA[mayerjm@comcast.net]]></dc:creator>
+		<pubDate>Sun, 26 Jul 2015 02:53:40 +0000</pubDate>
+		<guid isPermaLink="false">http://thinkcitypdx.com/blog/?p=231#comment-17</guid>
+		<description><![CDATA[Yes, I am certain that the fuses are blowing as I have measured the fuses to be open circuits and returned many Thinks to proper operation by replacing them.  I have no idea why the fuses blow; And I have no intention of trying to find the cause.  (One of the only remaining bits of highschool German that I can remember because of frequent repetition is &quot;Ich habe keine Ahnung.&quot;) This phenomenon is not nearly so prevalent as MLEC precharge resistor failure.
+
+I agree that there is a fault somewhere in the PCU/charging system or possibly in the EVSEs or grids attached to the failed cars or maybe even in the traction batteries.  The intention is not to install a 25A fuse to accommodate proper operation.  25A is a somewhat arbitrary value for the fuse just as long as it&#039;s rated higher than the inline fuse.  The intent is that it never blow and that the inline 20A fuse maintain the specification that the manufacturer designed.
+
+If you are confident that your AC line never flows more than 14A while operation normally I would highly recommend installing an 18A fuse inline (I use the example 18A because I have seen them available as I shopped online for fuses; 15A would work, too, of course.)  This would guarantee that your easily installed/replaced 18A fuses blow before the 20A fuses that are very painful to replace.
+If we can &quot;prove&quot; that every Think on every charger will not exceed 14A then I would recommend installing the inline fuse for everyone without modifying the fuse inside the PCU.  My design simply attempts to avoid any situation where the inline fuse might blow while the system is operating properly.  I know that some of the Think owners in my geographic area monitor their charging closely.  I&#039;d like to collect more data to make sure that there aren&#039;t peak charging currents that exceed the average before recommending it to my customers, regardless of what the specification says.
+As far as isolation faults, I have seen coolant leaks into PCUs and a water leak into the traction battery that caused isolation faults, but none of the PCUs with blown charger fuses had any moisture intrusion in the PCU.  I don&#039;t think water in battery would have caused it, especially without a flashing high voltage warning light, but I would never gamble on what I think.
+AC charge source properties: Surely EVSEs include a surge protector, right?  I don&#039;t know, maybe not...  Perhaps I should go back correlate the EVSE brands to the failed chargers.  (I suspected that we already noticed that at least a few different EVSE brands and stopped taking note.)
+
+I hope I&#039;ve answered your questions-- I&#039;ve done my best. Your input is very valuable; I really appreciate it.]]></description>
+		<content:encoded><![CDATA[<p>Yes, I am certain that the fuses are blowing as I have measured the fuses to be open circuits and returned many Thinks to proper operation by replacing them.  I have no idea why the fuses blow; And I have no intention of trying to find the cause.  (One of the only remaining bits of highschool German that I can remember because of frequent repetition is &#8220;Ich habe keine Ahnung.&#8221;) This phenomenon is not nearly so prevalent as MLEC precharge resistor failure.</p>
+<p>I agree that there is a fault somewhere in the PCU/charging system or possibly in the EVSEs or grids attached to the failed cars or maybe even in the traction batteries.  The intention is not to install a 25A fuse to accommodate proper operation.  25A is a somewhat arbitrary value for the fuse just as long as it&#8217;s rated higher than the inline fuse.  The intent is that it never blow and that the inline 20A fuse maintain the specification that the manufacturer designed.</p>
+<p>If you are confident that your AC line never flows more than 14A while operation normally I would highly recommend installing an 18A fuse inline (I use the example 18A because I have seen them available as I shopped online for fuses; 15A would work, too, of course.)  This would guarantee that your easily installed/replaced 18A fuses blow before the 20A fuses that are very painful to replace.<br />
+If we can &#8220;prove&#8221; that every Think on every charger will not exceed 14A then I would recommend installing the inline fuse for everyone without modifying the fuse inside the PCU.  My design simply attempts to avoid any situation where the inline fuse might blow while the system is operating properly.  I know that some of the Think owners in my geographic area monitor their charging closely.  I&#8217;d like to collect more data to make sure that there aren&#8217;t peak charging currents that exceed the average before recommending it to my customers, regardless of what the specification says.<br />
+As far as isolation faults, I have seen coolant leaks into PCUs and a water leak into the traction battery that caused isolation faults, but none of the PCUs with blown charger fuses had any moisture intrusion in the PCU.  I don&#8217;t think water in battery would have caused it, especially without a flashing high voltage warning light, but I would never gamble on what I think.<br />
+AC charge source properties: Surely EVSEs include a surge protector, right?  I don&#8217;t know, maybe not&#8230;  Perhaps I should go back correlate the EVSE brands to the failed chargers.  (I suspected that we already noticed that at least a few different EVSE brands and stopped taking note.)</p>
+<p>I hope I&#8217;ve answered your questions&#8211; I&#8217;ve done my best. Your input is very valuable; I really appreciate it.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Hans Galle</title>
+		<link>http://thinkcitypdx.com/blog/?p=231#comment-16</link>
+		<dc:creator><![CDATA[Hans Galle]]></dc:creator>
+		<pubDate>Sat, 25 Jul 2015 17:53:45 +0000</pubDate>
+		<guid isPermaLink="false">http://thinkcitypdx.com/blog/?p=231#comment-16</guid>
+		<description><![CDATA[I don&#039;t understand:
+AC charge fuses blowing? You are sure?
+In both AC lines are fuses 20A. It&#039;s supply for AC / DC converter AC100...240V to DC220...385V and then charging traction battery.
+In one line from converter to traction battery is one 20A.
+Max. current AC line in is 14A (my Think every time under 14A).
+Extern 15A fuse possible. Modifikation 25A / 20A not needful.
+If 20A fuse to battery blowing, it&#039;s a fault current limiting in charger.
+The named charger dates are AC/ DC 220-385V, 0-12,8A.
+The battery electric circuit is an IT-grid (isolated earth).
+Let us to revise:
+Isolations fault printed board?
+Characteristic of fuses (AC  and HVDC charge)?
+AC charge source properties?
+Merci    HANS GALLE]]></description>
+		<content:encoded><![CDATA[<p>I don&#8217;t understand:<br />
+AC charge fuses blowing? You are sure?<br />
+In both AC lines are fuses 20A. It&#8217;s supply for AC / DC converter AC100&#8230;240V to DC220&#8230;385V and then charging traction battery.<br />
+In one line from converter to traction battery is one 20A.<br />
+Max. current AC line in is 14A (my Think every time under 14A).<br />
+Extern 15A fuse possible. Modifikation 25A / 20A not needful.<br />
+If 20A fuse to battery blowing, it&#8217;s a fault current limiting in charger.<br />
+The named charger dates are AC/ DC 220-385V, 0-12,8A.<br />
+The battery electric circuit is an IT-grid (isolated earth).<br />
+Let us to revise:<br />
+Isolations fault printed board?<br />
+Characteristic of fuses (AC  and HVDC charge)?<br />
+AC charge source properties?<br />
+Merci    HANS GALLE</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
